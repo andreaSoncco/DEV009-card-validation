@@ -36,6 +36,8 @@ function Continuar() {
     }
 
     let resto = sum % 10 == 0;
-    let alerta = (resto) ? "su tarjeta ha sido aprobada" : "si tarjeta ha sido rechazada" ;
-    alert(alerta);
+    let resultado = (resto) ? "Tu número de tarjeta es válido" : "Tu número de tarjeta no es válido" ;
+    let respuesta = document.getElementById("respuesta");
+    respuesta.innerHTML = resultado;
+    alert(resultado);
 }
