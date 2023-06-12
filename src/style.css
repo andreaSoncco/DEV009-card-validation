@@ -7,6 +7,14 @@ html{
     
 }
 
-#imagen{
-    text-align: middle;
+#pagina0{
+    display: block;
+}
+
+#pagina1{
+    display: none;
+}
+
+#pagina2{
+    display: none;
 }
