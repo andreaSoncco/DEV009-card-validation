@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- PAGINA 0 -->
-    <section id="pagina0">
-      <header>
-        <img src="https://img2.freepng.es/20180218/lkq/kisspng-star-grey-clip-art-green-star-images-5a897db3948894.7761506815189600516084.jpg" width="90" id="imagen"> <h1 class="titulo-en-linea">BANCO PISAQ</h1>
-      </header>
-      <main>
-        <section>
-          <img src="https://mexicocity.cdmx.gob.mx/wp-content/uploads/2021/01/bank-of-mexico-building.jpeg" width="1000">
-        </section>
-        <figure>
-          <input type="button" value="BANCA POR INTERNET" id="btnBanca"/>
-        </figure>
-      </main>
-      <footer>
-        <p>Oficina Principal: Coop. Juventud Ferroviaria Mz. J Lt. 8, Arequipa, Arequipá - Perú<br>Atención: Lunes a sábado, de 08:30 a 17:30. Refrigerio de 13:00 a 14:00<br>Mesa de Partes Digital<br>Central telefónica administrativa: 051 923605476</p>
-      </footer>
-    </section>
-    <!-- PAGINA 1 -->
-    <section id="pagina1">
-      <header></header>
-      <main>
-        <h1>BANCA POR INTERNET</h1>
-        <label><input type="radio" id=a name="persona" value="persona">Persona</label>
-        <label><input type="radio" id=a name="empresa" value="empresa">Empresa</label>
-        <p>DNI:
-        <input type="text" id="numeroDni" name="Dni" /> </p>
-        <p>NUMERO DE TARJETA:</p>
-        <input type="text" id="numeroTarjeta" name="Tarjeta" />
-        <p>Clave de internet de 6 dígitos:</p>
-        <input type="button" value="Continuar" id="btnContinuar"/>
-      </main>
-      <footer></footer>
-    </section>
-    <!-- PAGINA 2 -->
-    <section id="pagina2">
-      <header></header>
-      <main>
-        <img src="https://img2.freepng.es/20180218/lkq/kisspng-star-grey-clip-art-green-star-images-5a897db3948894.7761506815189600516084.jpg" width="90" id="imagen"> <h1 class="titulo-en-linea">BANCO PISAQ</h1>
-        <div id="respuesta">  </div>
-        <p>Los últimos cuatro dígitos son los siguientes</p>
-        <input type="button" value="Adelante podras acceder a tu Estado de Cuenta/ no podras acceder a tu estado de Cuenta" id="Salir"/>
-      </main>
-      <footer></footer>
-    </section>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- PAGINA 0 -->
+  <section id="pagina0">
+    <header>
+      <img
+        src="https://img2.freepng.es/20180218/lkq/kisspng-star-grey-clip-art-green-star-images-5a897db3948894.7761506815189600516084.jpg"
+        width="90" id="imagen">
+      <h1 class="titulo-en-linea">BANCO PISAQ</h1>
+    </header>
+    <main>
+      <section>
+        <img src="https://mexicocity.cdmx.gob.mx/wp-content/uploads/2021/01/bank-of-mexico-building.jpeg" width="1000">
+      </section>
+      <figure>
+        <input type="button" value="BANCA POR INTERNET" id="btnBanca" />
+      </figure>
+    </main>
+    <footer>
+      <p>Oficina Principal: Coop. Juventud Ferroviaria Mz. J Lt. 8, Arequipa, Arequipá - Perú<br>Atención: Lunes a
+        sábado, de 08:30 a 17:30. Refrigerio de 13:00 a 14:00<br>Mesa de Partes Digital<br>Central telefónica
+        administrativa: 051 923605476</p>
+    </footer>
+  </section>
+  <!-- PAGINA 1 -->
+  <section id="pagina1">
+    <header></header>
+    <main>
+      <h1>BANCA POR INTERNET</h1>
+      <label><input type="radio" id="a" name="persona" value="persona">Persona</label>
+      <label><input type="radio" id="b" name="empresa" value="empresa">Empresa</label>
+      <p>DNI:
+        <input type="text" id="numeroDni" name="Dni" />
+      </p>
+      <p>NUMERO DE TARJETA:</p>
+      <input type="text" id="numeroTarjeta" name="Tarjeta" required />
+      <p>Clave de internet de 6 dígitos:</p>
+      <input type="button" value="Continuar" id="btnContinuar" />
+    </main>
+    <footer></footer>
+  </section>
+  <!-- PAGINA 2 -->
+  <section id="pagina2">
+    <header></header>
+    <main>
+      <img
+        src="https://img2.freepng.es/20180218/lkq/kisspng-star-grey-clip-art-green-star-images-5a897db3948894.7761506815189600516084.jpg"
+        width="90" id="logo">
+      <h1 class="titulo-en-linea">BANCO PISAQ</h1>
+      <div id="respuesta"> </div>
+      <p>Los últimos cuatro dígitos son los siguientes</p>
+      <div id="respuesta1"> </div>
+      <input type="button"
+        value="Adelante podras acceder a tu Estado de Cuenta/ no podras acceder a tu estado de Cuenta" id="Salir" />
+    </main>
+    <footer></footer>
+  </section>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

@@ -1,20 +1,20 @@
-html{
+html {
     background-color: #0CEA3D;
 }
 
-.titulo-en-linea{
+.titulo-en-linea {
     display: inline;
-    
+
 }
 
-#pagina0{
+#pagina0 {
     display: block;
 }
 
-#pagina1{
+#pagina1 {
     display: none;
 }
 
-#pagina2{
+#pagina2 {
     display: none;
 }
