@@ -26,7 +26,6 @@ function validar() {
   respuesta.innerHTML = resultado;
 
   const acumulador = validator.maskify(numeroTarjeta);
-  console.log(acumulador);
   const respuesta1 = document.getElementById("respuesta1");
   respuesta1.innerHTML = acumulador;
 }

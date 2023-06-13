@@ -21,8 +21,9 @@ const validator = {
   },
   maskify: function (number) {
     let acumulador = "";
+    const conteo = parseInt(number.length);
     for (let i = 0; i < number.length; i++) {
-      if (i > 11) {
+      if (i>(conteo-5)) {
         acumulador = acumulador + number[i];
       }
       else {
