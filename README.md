@@ -13,6 +13,42 @@
 
 El Presente Proyecto de Card Validation es sobre la interfaz de un Banco donde podemos direccionarnos a Banca Por Internet para conocer nuestro Estado de Cuenta, aquí se aplica la validación de una tarjeta de per persona natural o empresa para permitirles ver su Estado de Cuenta. Asimismo, se debe mostrar los últimos 4 dígitos de la tarjeta en la página. 
 
+1.1.	PROTOTIPO DE BAJA FIDELIDAD
+Se uso un prototipo muy sencillo de Figma para representar la interfaz de la estructura de la web y el diseño principal de las páginas tal como se muestran en las imágenes:
+Página 0
+ 
+Página 1
+ 
+Página 2
+ 
+1.2.	DESARROLLO DEL PROYECTO
+Para entender este trabajo empezaremos por explicar la estructura de la página Web, la cual cuenta con tres ventanas y se hizo con HTML, consta del siguiente cuerpo:
+A.	PAGINA PRINCIPAL: Donde se encuentra el Encabezado con el Nombre de la Empresa: BANCO PISAQ y su logo correspondiente, el botón de acceso a Banca por Internet y debajo en el pie de página nos encontramos con la información de referencia sobre la Empresa para contactarnos con ellos y conocer su horario de atención. Asimismo, la página principal contiene una imagen del Banco que ilustre mejor su visión y los servicios que ofrece.
+B.	SEGUNDA PÁGINA: Abarca el acceso a Banca por Internet donde se encuentra la plantilla de los datos que llenar para acceder al Estado de Cuenta.
+C.	ÚLTIMA PÁGINA: Nos brinda información sobre si la tarjeta es valida y nos resalta los cuatro últimos dígitos de la tarjeta. Por último, nos indica si se nos permitirá ver nuestro Estado de Cuenta posteriormente.
+Seguidamente, luego de implementar la estructura en el HTML se trabajo con JAVASCRIPT para incorporar las dos funcionalidades necesarias:
+A.	FUNCIONALIDAD DE VALIDAR TARJETA
+Para validar la tarjeta aplicamos el Algoritmo de Luhn, también llamado algoritmo de módulo 10, es un método de suma de verificación, se utiliza para validar números de identificación. Este algoritmo es simple y sigue los siguientes pasos:
+-	Obtenemos la reversa del número a verificar (que solamente contiene dígitos [0-9]); 
+-	A todos los números que ocupan una posición par se les debe multiplicar por dos, si este número es mayor o igual a 10, debemos sumar los dígitos del resultado; el número a verificar será válido si la suma de sus dígitos finales es un múltiplo de 10.
+B.	FUNCIONALIDAD DE MOSTRAR SOLO LOS ÚLTIMOS 4 DÍGITOS
+Para solo mostrar los últimos 4 dígitos también se usaron las posiciones (i) y se coloco como condición la siguiente:
+if (i>(número de posiciones desde 0-5))
+Entendiendo que de cada arreglo de números el programa tomaría solo las últimas cuatro posiciones.
+Luego de la ejecución de las funciones, se trabajó en el diseño de estilo de la pagina con CSS donde se usaron los dos colores característicos del Banco PISAQ: el verde y morado. Adicionalmente se uso el gris y blanco para darle un aspecto neutral y un diseño sencillo.
+La presentación de la página web se muestra a continuación:
+Página Principal
+![gráfica del prototipo pagina0](pagina0.jpg)
+Página Secundaria
+ 
+Última Página
+ 
+
+Por último, se probaron los Tests con npm test y corrieron todos como se muestra en pantalla:
+ 
+
+
+
 ![gráfica de algoritmo de Luhn](https://user-images.githubusercontent.com/12631491/217016579-865679e0-0949-4afd-b13f-d2ebba7a0c54.png)
 
 ## 2. Resumen del proyecto
