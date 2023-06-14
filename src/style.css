@@ -1,20 +1,98 @@
 html {
-    background-color: #0CEA3D;
-}
-
-.titulo-en-linea {
-    display: inline;
-
+    background-color: #E4D9D9;
 }
 
 #pagina0 {
     display: block;
 }
 
+#encabezado {
+    text-align: middle;
+    font-size: 30px;
+}
+
+#cuerpo {
+    display: flex;
+    flex-direction: row;
+    height: 220px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 300px;
+    display: table;
+}
+
+
+.izquierda {
+    display: table-cell;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+}
+
+.derecha {
+    display: table-cell;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;  
+}
+
+#btnBanca {
+    border:none;
+    background: #0CEA3D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 15px;
+}
+
+.final {
+    text-align: center;
+}
+
 #pagina1 {
     display: none;
+   }
+
+.cuerpo-pagina1 {
+    background-color: #fff;
+    height: 50vh;
+    margin: 5%;
+    
+    text-align: center;
+    align-items: center;
+}
+
+#tituloBanca {
+    color:#8C118F;
+}
+
+#btnContinuar {
+    border:none;
+    background: #0CEA3D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 15px;
 }
 
 #pagina2 {
     display: none;
+}
+
+.cuerpo-pagina2 {
+    background-color: #fff;
+    height: 50vh;
+    margin: 5%;
+
+    
+    text-align: center;
+    align-items: center;
+}
+
+.titulo-en-linea {
+    display: inline;
 }

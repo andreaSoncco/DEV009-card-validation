@@ -22,12 +22,16 @@ function validar() {
   const numeroTarjeta = document.getElementById("numeroTarjeta").value;
   const resto = validator.isValid(numeroTarjeta)
   const resultado = (resto) ? "Tu número de tarjeta es válido" : "Tu número de tarjeta no es válido";
+  const info = (resto) ? "Adelante podrás acceder a tu Estado de Cuenta" : "No podras acceder a tu Estado de Cuenta";
   const respuesta = document.getElementById("respuesta");
   respuesta.innerHTML = resultado;
 
   const acumulador = validator.maskify(numeroTarjeta);
   const respuesta1 = document.getElementById("respuesta1");
   respuesta1.innerHTML = acumulador;
+
+  const respuesta2 = document.getElementById("respuesta2");
+  respuesta2.innerHTML = info;
 }
 
 /*function Maskify(numeroTarjeta) {
