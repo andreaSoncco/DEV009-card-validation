@@ -2,30 +2,16 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Consideraciones generales](#3-consideraciones-generales)
-* [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Hito Opcional: Mostrar la franquicia de tarjeta](#5-hito-opcional-mostrar-la-franquicia-de-tarjeta)
-* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)
+* [1. Definición del Proyecto](#1-proyecto)
+* [2. Principales Usuarios](#2-resumen-del-proyecto)
+* [3. Objetivos de los Usuarios con Relación al Producto](#3-consideraciones-generales)
+* [4. Utilidad e Importancia de la Página](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
 
 ***
 
-## 1. Preámbulo
+## 1. PROYECTO
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
-
-Este algoritmo es simple. Obtenemos la reversa del número a verificar (que
-solamente contiene dígitos [0-9]); a todos los números que ocupan una posición
-par se les debe multiplicar por dos, si este número es mayor o igual a 10,
-debemos sumar los dígitos del resultado; el número a verificar será válido si
-la suma de sus dígitos finales es un múltiplo de 10.
+El Presente Proyecto de Card Validation es sobre la interfaz de un Banco donde podemos direccionarnos a Banca Por Internet para conocer nuestro Estado de Cuenta, aquí se aplica la validación de una tarjeta de per persona natural o empresa para permitirles ver su Estado de Cuenta. Asimismo, se debe mostrar los últimos 4 dígitos de la tarjeta en la página. 
 
 ![gráfica de algoritmo de Luhn](https://user-images.githubusercontent.com/12631491/217016579-865679e0-0949-4afd-b13f-d2ebba7a0c54.png)
 
