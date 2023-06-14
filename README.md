@@ -38,7 +38,7 @@ Entendiendo que de cada arreglo de números el programa tomaría solo las últim
 Luego de la ejecución de las funciones, se trabajó en el diseño de estilo de la pagina con CSS donde se usaron los dos colores característicos del Banco PISAQ: el verde y morado. Adicionalmente se uso el gris y blanco para darle un aspecto neutral y un diseño sencillo.
 La presentación de la página web se muestra a continuación:
 Página Principal
-![gráfica del prototipo pagina0](pagina0.jpg)
+![gráfica del prototipo pagina0](imagen0.png)
 Página Secundaria
  
 Última Página
