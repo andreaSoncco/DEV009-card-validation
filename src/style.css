@@ -64,10 +64,6 @@ html {
     align-items: center;
 }
 
-.encabezado-pagina2 {
-    font-size: 30px;
-}
-
 #tituloBanca {
     color:#8C118F;
 }
@@ -87,7 +83,11 @@ html {
     display: none;
 }
 
-
+.encabezado-pagina2 {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
 
 .cuerpo-pagina2 {
     background-color: #fff;
@@ -97,6 +97,18 @@ html {
     
     text-align: center;
     align-items: center;
+}
+
+#respuesta2 {
+    border:none;
+    background: #0CEA3D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 15px;
+    
 }
 
 .titulo-en-linea {
