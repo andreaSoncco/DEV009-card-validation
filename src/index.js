@@ -1,6 +1,6 @@
 import validator from './validator.js';
 
-console.log(validator);
+
 
 const btnBanca = document.getElementById("btnBanca");
 btnBanca.addEventListener("click", Banca);
@@ -21,6 +21,7 @@ function validar() {
   document.getElementById("pagina2").style.display = "block";
   const numeroTarjeta = document.getElementById("numeroTarjeta").value;
   const resto = validator.isValid(numeroTarjeta)
+  //Operador ternario
   const resultado = (resto) ? "Tu número de tarjeta es válido" : "Tu número de tarjeta no es válido";
   const info = (resto) ? "Adelante podrás acceder a tu Estado de Cuenta" : "No podras acceder a tu Estado de Cuenta";
   const respuesta = document.getElementById("respuesta");
