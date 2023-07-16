@@ -78,7 +78,7 @@ Por último, se probaron los Tests con npm test y corrieron todos como se muestr
 
 Los principales usuarios de esta página web son los clientes del Banco PISAQ que queriendo ingresar a su Estado de Cuenta ingresan a la interfaz para acceder a su Cuenta. Otros usuarios también serían los clientes potenciales del Banco que entran a la página con la finalidad se informarse y conocer más de la empresa. 
 
-### OBJETIVOS DE LOS USUARIOS CON RELACIÓN AL PRODUCTO
+## 3. OBJETIVOS DE LOS USUARIOS CON RELACIÓN AL PRODUCTO
 
 Los usuarios ya mencionados anteriormente pueden tener dos tipos de objetivos:
 A.	OBJETIVOS PRIMARIOS
@@ -89,7 +89,7 @@ B.	OBJETIVOS SECUNDARIOS
 *	Conocer su horario de atención
 
 
-## 3. UTILIDAD E IMPORTANCIA DE LA PÁGINA WEB
+## 4. UTILIDAD E IMPORTANCIA DE LA PÁGINA WEB
 
 Esta página es útil para realizar operaciones financiaras dentro del Banco Pisaq, para ello es que valida su tarjeta de crédito. También es importante para representar y proyectar diversos pensamientos, ideas, deseos y creencias de la empresa para que de esta manera se promueva la venta de servicios financieros. 
 Es un espacio que ayuda tener mayor alcance en el mercado y fidelizar los clientes del Banco que se beneficiaran de poder acceder a su Cuenta sin necesidad de asistir presencialmente a la agencia central.
