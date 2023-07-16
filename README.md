@@ -2,10 +2,10 @@
 
 ## Índice
 
-* [1. Definición del Proyecto](#1-proyecto)
-* [2. Principales Usuarios](#2-resumen-del-proyecto)
-* [3. Objetivos de los Usuarios con Relación al Producto](#3-consideraciones-generales)
-* [4. Utilidad e Importancia de la Página](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
+* [1. Definición del Proyecto](#1-definición-del-proyecto)
+* [2. Principales Usuarios](#2-principales-usuarios)
+* [3. Objetivos de los Usuarios con Relación al Producto](#3-objetivos-de-los-usuarios-con-relación-al-producto)
+* [4. Utilidad e Importancia de la Página Web](#4-utilidad-e-importancia-de-la-página-web)
 
 ***
 
