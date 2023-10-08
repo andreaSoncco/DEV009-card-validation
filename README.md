@@ -20,7 +20,7 @@ La presentación de la página web se muestra a continuación:
 
 ![gráfica de la pagina0](img/pagina3.jpg)
 
-**Página Secundaria ♣️**
+**Segunda Página ♣️**
 
 ![gráfica de la pagina1](img/pagina4.jpg)
 
@@ -48,13 +48,13 @@ Nos brinda información sobre si la tarjeta es valida y nos resalta los cuatro �
 
 Seguidamente, luego de implementar la estructura en el HTML se trabajo con JAVASCRIPT para incorporar las dos funcionalidades necesarias:
 
-### I. Funcionalidad para validar tarjeta 💡✅
+#### I. Funcionalidad para validar tarjeta 💡✅
 Para validar la tarjeta aplicamos el Algoritmo de Luhn, también llamado algoritmo de módulo 10, es un método de suma de verificación, se utiliza para validar números de identificación. Este algoritmo es simple y sigue los siguientes pasos:
 
 *	Obtenemos la reversa del número a verificar (que solamente contiene dígitos ```[0-9]```); 
 *	A todos los números que ocupan una posición par se les debe multiplicar por dos, si este número es mayor o igual a 10, debemos sumar los dígitos del resultado; el número a verificar será válido si la suma de sus dígitos finales es un múltiplo de 10.
 
-### II. Funcionalidad para mostrar solo los últimos 4 dígitos 💳
+#### II. Funcionalidad para mostrar solo los últimos 4 dígitos 💳
 Para solo mostrar los últimos 4 dígitos también se usaron las posiciones (i) y se coloco como condición la siguiente:
 
 ```if (i>(número de posiciones desde 0-5))```
@@ -115,8 +115,8 @@ Se uso un prototipo muy sencillo de Figma para representar la interfaz de la est
 ## 5. HERRAMIENTAS DE ELABORACIÓN
 👩‍🔧👩‍🎨
 
-- JAVASCRIPT para darle funcionalidad a la página
-- HTML producir la estructura de la interfaz
-- CSS para implementar el diseño
-- FIGMA para planear el diseño
-- TRELLO para planificar el tiempo y dividir las tareas
+- Javascript: Para darle funcionalidad a la página
+- HTML: Para producir la estructura de la interfaz
+- CSS: Para implementar el diseño
+- Figma: Para planear el diseño
+- Trello: Para planificar el tiempo y dividir las tareas
