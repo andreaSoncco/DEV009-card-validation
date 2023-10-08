@@ -1,7 +1,5 @@
 import validator from './validator.js';
 
-
-
 const btnBanca = document.getElementById("btnBanca");
 btnBanca.addEventListener("click", Banca);
 
@@ -10,11 +8,8 @@ function Banca() {
   document.getElementById("pagina1").style.display = "block";
 }
 
-
-
 const btnContinuar = document.getElementById("btnContinuar");
 btnContinuar.addEventListener("click", validar);
-
 
 function validar() {
   document.getElementById("pagina1").style.display = "none";
