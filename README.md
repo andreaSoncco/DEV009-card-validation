@@ -14,7 +14,7 @@ Link del Proyecto: [Ir a la Página Web del Banco PISAQ](https://andreasoncco.gi
 
 ## 1. DEFINICIÓN DEL PROYECTO
 💻
-El Presente Proyecto de Card Validation es sobre la interfaz de un Banco donde podemos direccionarnos a Banca Por Internet para conocer nuestro Estado de Cuenta, aquí se aplica la validación de una tarjeta de per persona natural o empresa para permitirles ver su Estado de Cuenta. Asimismo, se debe mostrar los últimos 4 dígitos de la tarjeta en la página. 
+El Presente Proyecto de Card Validation es sobre la interfaz de un Banco donde podemos direccionarnos a Banca Por Internet para conocer nuestro Estado de Cuenta, aquí se aplica la validación de una tarjeta de por persona natural o empresa para permitirles ver su Estado de Cuenta. Asimismo, se debe mostrar los últimos 4 dígitos de la tarjeta en la página. 
 
 La presentación de la página web se muestra a continuación:
 
